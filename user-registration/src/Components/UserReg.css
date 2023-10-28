@@ -1,0 +1,123 @@
+.User-Container {
+    text-align: left;
+    margin-left: 60px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 44px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+.Profile {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Set-Profile {
+    flex: 0.25; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.Set-Profile img {
+    width: 160px;
+    height: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.Set-Profile .upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.input-Box {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.input-Box label,
+.input-city label,
+.input-street label
+ {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-Box input {
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+.input-Box select {
+    width: 100px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-street{
+    display: flex;
+}
+
+.input-street input{
+    width: 60%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 20px;
+    flex: 1; 
+    margin-right: 10px;
+}
+
+.input-city{
+    display: flex;
+}
+
+.input-city input{
+    width: 60%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 20px;
+    flex: 1; 
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
